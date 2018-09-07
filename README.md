@@ -1,10 +1,10 @@
 # pfsense-theme-gotham
 
-A **very dark** theme for pfSense router inspired by [Gotham][https://github.com/whatyouhide/gotham-contrib] colorscheme, still work in progress.
+A **very dark** theme for pfSense router inspired by [Gotham](https://github.com/whatyouhide/gotham-contrib) colorscheme, still work in progress.
 
-# Screensshot
+# Screenshot
 
-![screenshot](Screenshot_2018-09-06 pfSense localdomain - Status Dashboard.png)
+![screenshot](screenshot.png)
 
 # To install
 
