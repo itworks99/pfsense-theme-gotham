@@ -692,7 +692,6 @@ textarea {
 }
 
 /* D3 Styles */
-
 .traffic-widget-chart:not(:last-child) {
     border-bottom: 2px solid var(--dark);
     fill: var(--danger) !important;
@@ -728,7 +727,6 @@ g.nv-legend text {
 .nvd3 .nv-legend-symbol {
     fill: var(--danger-dark) !important;
     stroke: var(--danger-dark) !important;
-
 }
 
 .colspanth {
