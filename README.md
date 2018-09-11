@@ -2,6 +2,7 @@ A **very dark** theme for [pfSense](https://github.com/pfsense/pfsense) inspired
 
 ## Screenshot
 ![dark](screenshot.png) | ![daylight](screenshot_dl.png)
+|:---:|:---:|
 
 ## To install
 1. Enable SSH on pfSense
