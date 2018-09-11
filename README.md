@@ -1,7 +1,7 @@
 A **very dark** theme for [pfSense](https://github.com/pfsense/pfsense) inspired by [Gotham](https://github.com/whatyouhide/gotham-contrib) colorscheme, now paired with the bright version. Still work in progress.
 
 ## Screenshot
-![dark](screenshot.png)![daylight](screenshot_dl.png)
+![dark](screenshot.png)[daylight](screenshot_dl.png)
 
 ## To install
 1. Enable SSH on pfSense
