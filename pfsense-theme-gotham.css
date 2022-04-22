@@ -97,21 +97,21 @@ h1 a:active {
     border: 1px solid var(--teal);
 }
 
-.table>tbody>tr>td,
-.table>tbody>tr>th,
-.table>tfoot>tr>td,
-.table>tfoot>tr>th,
-.table>thead>tr>td,
-.table>thead>tr>th {
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
     border-color: var(--dark);
 }
 
-.table-hover>tbody>tr:hover,
-.table-striped>tbody>tr:nth-of-type(odd):hover {
+.table-hover > tbody > tr:hover,
+.table-striped > tbody > tr:nth-of-type(odd):hover {
     background-color: var(--gray);
 }
 
-.table-striped>tbody>tr:nth-of-type(even):hover {
+.table-striped > tbody > tr:nth-of-type(even):hover {
     background-color: var(--gray);
 }
 
@@ -120,7 +120,7 @@ table.sortable-theme-bootstrap {
     background-color: var(--gray) !important;
 }
 
-.table>tbody+tbody {
+.table > tbody + tbody {
     border-top: 1px solid var(--gray);
 }
 
@@ -130,12 +130,12 @@ table.sortable-theme-bootstrap {
     border-radius: 10px;
 }
 
-.dropdown-menu>li>a {
+.dropdown-menu > li > a {
     color: var(--cyan);
 }
 
-.dropdown-menu>li>a:focus,
-.dropdown-menu>li>a:hover {
+.dropdown-menu > li > a:focus,
+.dropdown-menu > li > a:hover {
     background-color: var(--blue);
     color: var(--teal);
 }
@@ -153,7 +153,7 @@ table.sortable-theme-bootstrap {
     line-height: 100%;
 }
 
-.breadcrumb>li+li:before {
+.breadcrumb > li + li:before {
     color: var(--secondary);
 }
 
@@ -166,33 +166,33 @@ ul.context-links li a {
     background-color: var(--gray-dark);
 }
 
-.nav>li>a {
+.nav > li > a {
     border-bottom: 3px solid var(--dark);
     color: var(--teal);
 }
 
-.nav>li>a:focus,
-.nav>li>a:hover {
+.nav > li > a:focus,
+.nav > li > a:hover {
     color: var(--teal);
     background-color: var(--dark);
     border-bottom: 3px solid var(--teal);
 }
 
-.nav-pills>li.active>a,
-.nav-pills>li.active>a:focus,
-.nav li.open>a,
-.nav li.open>a:focus,
-.nav-pills>li.active>a:hover {
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav li.open > a,
+.nav li.open > a:focus,
+.nav-pills > li.active > a:hover {
     background-color: var(--dark);
     border-bottom: 3px solid var(--teal);
     color: var(--teal);
 }
 
-.navbar-inverse .navbar-nav>li>a {
+.navbar-inverse .navbar-nav > li > a {
     border-bottom: 3px solid var(--dark);
 }
 
-.nav-tabs>li>a {
+.nav-tabs > li > a {
     border-bottom: 3px solid var(--dark);
 }
 
@@ -200,10 +200,10 @@ ul.context-links li a {
     border-bottom: 1px solid var(--teal);
 }
 
-.nav-tabs>li.active>a,
-.nav-tabs>li.active>a:focus,
-.nav-tabs>li.active>a:hover,
-.nav-tabs>li>a:hover {
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li > a:hover {
     border-left: 1px solid var(--dark);
     border-right: 1px solid var(--dark);
     border-top: 1px solid var(--dark);
@@ -270,7 +270,7 @@ ul.context-links li a {
 .btn-default:active,
 .btn-default:focus,
 .btn-default:hover,
-.open>.dropdown-toggle.btn-default {
+.open > .dropdown-toggle.btn-default {
     color: var(--light);
     background-color: var(--green);
     border-color: var(--green);
@@ -286,7 +286,7 @@ ul.context-links li a {
 .btn-info:active,
 .btn-info:focus,
 .btn-info:hover,
-.open>.dropdown-toggle.btn-info {
+.open > .dropdown-toggle.btn-info {
     background-color: var(--green);
     border-color: var(--green);
 }
@@ -301,7 +301,7 @@ ul.context-links li a {
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover,
-.open>.dropdown-toggle.btn-primary {
+.open > .dropdown-toggle.btn-primary {
     background-color: var(--green);
     border-color: var(--green);
 }
@@ -316,7 +316,7 @@ ul.context-links li a {
 .btn-success:active,
 .btn-success:focus,
 .btn-success:hover,
-.open>.dropdown-toggle.btn-success {
+.open > .dropdown-toggle.btn-success {
     background-color: var(--green);
     border-color: var(--green);
 }
@@ -331,7 +331,7 @@ ul.context-links li a {
 .btn-danger:active,
 .btn-danger:focus,
 .btn-danger:hover,
-.open>.dropdown-toggle.btn-danger {
+.open > .dropdown-toggle.btn-danger {
     background-color: var(--danger-dark);
     border-color: var(--danger-dark);
 }
@@ -346,7 +346,7 @@ ul.context-links li a {
 .btn-warning:active,
 .btn-warning:focus,
 .btn-warning:hover,
-.open>.dropdown-toggle.btn-warning {
+.open > .dropdown-toggle.btn-warning {
     background-color: var(--warning);
     border-color: var(--warning);
 }
@@ -368,7 +368,7 @@ caption {
     border-color: var(--gray);
 }
 
-.panel-default>.panel-heading {
+.panel-default > .panel-heading {
     color: var(--yellow);
     background-color: var(--indigo);
     border-color: var(--cyan);
@@ -405,36 +405,36 @@ caption {
     color: var(--light);
 }
 
-.table-striped>thead {
+.table-striped > thead {
     background-color: var(--dark);
     border-color: var(--cyan);
 }
 
-.table-striped>tbody>tr:nth-of-type(odd) {
+.table-striped > tbody > tr:nth-of-type(odd) {
     background-color: var(--dark);
     border-color: var(--cyan);
-    color: var(--grey);
+    color: var(--gray);
 }
 
-.table-striped>tbody>tr.disabled:nth-of-type(odd) {
+.table-striped > tbody > tr.disabled:nth-of-type(odd) {
     background-color: var(--dark);
     border-color: var(--cyan);
-    color: var(--grey);
+    color: var(--gray);
 }
 
-.table-striped>tbody>tr:nth-of-type(even) {
+.table-striped > tbody > tr:nth-of-type(even) {
     background-color: var(--indigo);
     border-color: var(--cyan);
 }
 
-.table-striped>tbody>tr.disabled:nth-of-type(even) {
+.table-striped > tbody > tr.disabled:nth-of-type(even) {
     background-color: var(--dark);
     color: var(--gray-dark);
 }
 
-.table-hover>tbody>tr.disabled:hover,
-.table-striped>tbody>tr.disabled:nth-of-type(odd):hover,
-.table-striped>tbody>tr.disabled:nth-of-type(even):hover {
+.table-hover > tbody > tr.disabled:hover,
+.table-striped > tbody > tr.disabled:nth-of-type(odd):hover,
+.table-striped > tbody > tr.disabled:nth-of-type(even):hover {
     background-color: var(--gray-dark);
 }
 
@@ -446,7 +446,7 @@ tr.disabled a {
     border: 1px solid var(--dark);
 }
 
-.table-bordered>thead {
+.table-bordered > thead {
     background-color: var(--dark);
 }
 
@@ -455,28 +455,28 @@ tr.disabled a {
 }
 
 /* active table row */
-.table>tbody>tr.active>td,
-.table>tbody>tr.active>th,
-.table>tbody>tr>td.active,
-.table>tbody>tr>th.active,
-.table>tfoot>tr.active>td,
-.table>tfoot>tr.active>th,
-.table>tfoot>tr>td.active,
-.table>tfoot>tr>th.active,
-.table>thead>tr.active>td,
-.table>thead>tr.active>th,
-.table>thead>tr>td.active,
-.table>thead>tr>th.active {
+.table > tbody > tr.active > td,
+.table > tbody > tr.active > th,
+.table > tbody > tr > td.active,
+.table > tbody > tr > th.active,
+.table > tfoot > tr.active > td,
+.table > tfoot > tr.active > th,
+.table > tfoot > tr > td.active,
+.table > tfoot > tr > th.active,
+.table > thead > tr.active > td,
+.table > thead > tr.active > th,
+.table > thead > tr > td.active,
+.table > thead > tr > th.active {
     background-color: var(--teal);
     color: var(--dark);
 }
 
 /* active table row on hover */
-.table-hover>tbody>tr.active:hover>td,
-.table-hover>tbody>tr.active:hover>th,
-.table-hover>tbody>tr:hover>.active,
-.table-hover>tbody>tr>td.active:hover,
-.table-hover>tbody>tr>th.active:hover {
+.table-hover > tbody > tr.active:hover > td,
+.table-hover > tbody > tr.active:hover > th,
+.table-hover > tbody > tr:hover > .active,
+.table-hover > tbody > tr > td.active:hover,
+.table-hover > tbody > tr > th.active:hover {
     background-color: var(--teal);
     color: var(--dark);
 }
@@ -490,7 +490,7 @@ tr.disabled a {
     background-color: var(--gray);
 }
 
-.popover.right>.arrow:after {
+.popover.right > .arrow:after {
     border-right-color: var(--dark);
 }
 
@@ -648,7 +648,7 @@ textarea {
     border-radius: 3px;
 }
 
-.bs-callout+.bs-callout {
+.bs-callout + .bs-callout {
     margin-top: -5px;
 }
 
@@ -738,5 +738,5 @@ Group.class.php to add <span class="element-required" to the title, which
 can then be used to style required input here. Example below uses a custom
 text underline, but text-color, background, font etc. could also be used */
 .element-required {
-    box-shadow: inset 0 0px 0 --teal, inset 0 0px 0 --teal
+    box-shadow: inset 0 0px 0 var(--teal), inset 0 0px 0 var(--teal);
 }
